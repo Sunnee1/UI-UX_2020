@@ -1,0 +1,44 @@
+/* CSS comment */
+
+body {
+    margin: 0%;
+}
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: lightgreen;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+ul.navmenu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul.navmenu li a.active {
+    background-color: darkcyan;
+    color: white;
+}
+
+ul.navmenu li a:hover:not(.active) {
+    background-color: darkcyan;
+    color: white;
+}
+
+ul.navmenu li a:visited {
+    color: darkgreen;
+    text-decoration: overline;
+}
+
+.main-div {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+}

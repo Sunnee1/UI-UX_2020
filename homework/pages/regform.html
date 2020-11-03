@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Registration form </title>
+    <link rel="stylesheet" href="../css/style01.css">
+    <style>
+        body {
+            margin: 0%;
+        }
+        
+        .personal-info {
+            background-color: lightseagreen;
+            width: 250px;
+        }
+        
+        .additional-details {
+            background-color: lightskyblue;
+            width: 250px;
+        }
+        
+        .legend-heading {
+            text-align: center;
+            background-color: lavender;
+            width: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div>
+            <ul class="navmenu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./shop.html">Shop</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a class="active" href="./regform.html">Registration</a></li>
+                <li><a href="./login.html">Log in</a></li>
+            </ul>
+        </div>
+        <div class="main-div">
+            <h1> Registration form </h1>
+            <form action="#" method="post">
+                <fieldset style="width: 250px;">
+                    <legend class="legendheading">Log in Details</legend>
+                    <p>
+                        <label for="email">Email Address</label>
+                    </p>
+                    <p>
+                        <input type="email" id="email" name="email" minlength="5" placeholder="Enter your email" required>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                    </p>
+                    <p>
+                        <input type="password" id="password" name="password" minlength="8" placeholder="Choose a password" required>
+                    </p>
+                </fieldset>
+                <fieldset class="personal-info">
+                    <legend class="legend-heading">Personal Infomation</legend>
+                    <p>
+                        <label for="user-name"> Username </label>
+                    </p>
+                    <p>
+                        <input type="text" id="user-name" name="user-name" minlength="1" placeholder="Username" required>
+                    </p>
+                    <p>
+                        <label for="first-name"> First name </label>
+                    </p>
+                    <p>
+                        <input type="text" id="first-name" name="first-name" minlength="1" placeholder="First name" required>
+                    </p>
+                    <p>
+                        <label for="last-name"> Last name </label>
+                    </p>
+                    <p>
+                        <input type="text" id="last-name" name="last-name" minlength="1" placeholder="Last name" required>
+                    </p>
+                    <label for="birth-date">Date of birth</label>
+                    <input type="date" min="1900-01-01" max="2020-12-31" id="birth-date" name="birth-date" required>
+                    <p>Choose your gender</p>
+                    <input type="radio" id="female" name="gender" value="female" checked>
+                    <label for="female"> Female </label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male"> Male </label>
+                    <p>Choose your city</p>
+                    <input type="radio" id="sofia" name="sofia" value="sofia" checked>
+                    <label for="sofia">Sofia</label>
+                    <input type="radio" id="plovdiv" name="plovdiv" value="plovdiv">
+                    <label for="plovdiv">Plovdiv</label>
+                    <br>
+                    <input type="radio" id="varna" name="varna" value="varna">
+                    <label for="varna">Varna</label>
+                    <input type="radio" id="burgas" name="burgas" value="burgas">
+                    <label for="burgas">Burgas</label>
+                </fieldset>
+                <fieldset class="additional-details">
+                    <legend class="legend-heading">Additional details</legend>
+                    <p>Carrer field</p>
+                    <input type="checkbox" name="architecture-engineering">Architecture and engineering
+                    <br>
+                    <input type="checkbox" name="art-culture-enterainment">Arts, culture and entertainment
+                    <br>
+                    <input type="checkbox" name="Business-management-administration">Business, management and administration
+                    <br>
+                    <input type="checkbox" name="Other">Other
+                    <hr>
+                    <p>Favourite music</p>
+                    <input type="checkbox" name="architecture-engineering">Pop
+                    <br>
+                    <input type="checkbox" name="art-culture-enterainment">Jazz
+                    <br>
+                    <input type="checkbox" name="Business-management-administration">Rock
+                    <br>
+                    <input type="checkbox" name="Other">Other
+                </fieldset>
+                <fieldset style="width: 250px; background-color: lightseagreen;">
+                    <legend class="legend-heading">Comment section</legend>
+                    <textarea name="comments" rows="4" cols="30"> Enter your comments</textarea>
+                </fieldset>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Log in </title>
+    <style>
+        a {
+            color: blue;
+        }
+        
+        .login-color {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Log in </h1>
+    <form action="#" method="post">
+        <fieldset class="login-color" style="width: 250px;">
+            <p>
+                <label for="email">Email Address</label>
+            </p>
+            <p>
+                <input type="email" id="email" name="email" minlength="5" placeholder="Enter your email" required>
+            </p>
+            <p>
+                <label for="password">Password</label>
+            </p>
+            <p>
+                <input type="password" id="password" name="password" minlength="8" placeholder="Enter your password" required>
+            </p>
+            <p>Register <a href="./regform.html">here</a>.</p>
+        </fieldset>
+        <br>
+        <input type="submit" value="Log in">
+    </form>
+    <p>
+        <a href="../index.html">Go back to home</a>
+    </p>
+</body>
+
+</html>

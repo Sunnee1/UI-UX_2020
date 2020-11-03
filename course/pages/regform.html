@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form</title>
+    </head>
+    <body>
+        <h1> Registration form</h1>
+        <fieldset style="width: 450px;">
+        <form action="#" method="post">
+            <p>
+                <label for="first-name">Name*</label>
+            </p>    
+            <p>
+                <input type="text" id="first-name" name="first-name" size="30" minlength="1" maxlength="25" placeholder="Enter your first name" required>
+            </p>
+            <p>
+                <label for="Last-name">Last Name*</label>
+            </p>
+            <p>
+                <input type="text" id="last-name" name="last-name" size="30" minlength="1" maxlength="25" placeholder="Enter your last name" required>
+            </p>
+            <p>
+                <label for="Email">Email*</label>
+            </p>
+            <p>
+                <input type="email" id="email" name="email" size="30" minlength="1" maxlength="50" required>
+            </p>
+            <p>
+                <label for="password">Password*</label>
+            </p>
+            <p>
+                <input type="password" id="password" name="password" size="30" minlength="8" maxlength="50" required>
+            </p>
+        </fieldset>
+        <fieldset style="width: 450px;">
+            <legend> Questions </legend>
+            <p>What is your favourite music?</p>
+            <input type="checkbox" name="rock" id="rock" checked>
+            <label for="rock">Rock</label>
+            <input type="checkbox" name="pop" id="pop">
+            <label for="pop">Pop</label>
+            <input type="checkbox" name="jazz" id="jazz">
+            <label for="jazz">Jazz</label>
+            <input type="checkbox" name="classic" id="classic">
+            <label for="classic">Classic</label>
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male" value="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </fieldset>
+        <fieldset style="width: 450px;">
+            <legend>Calendar</legend>
+            <label for="start-date">Start date</label>
+            <input type="date" min="1900-01-01" max="2021-01-01" id="start-date" name="start-date">
+            <br>
+            <p>Day, month and year of birth</p>
+            <label for="date">Date</label>
+            <select name="date" id="date">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <label for="month">Month</label>
+            <select name="month" id="month">
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+            </select>
+            <label for="year">Month</label>
+            <select name="year" id="year">
+                <option value="1990">1990</option>
+                <option value="1995">1995</option>
+                <option value="2000">2000</option>
+                <option value="2005">2005</option>
+                <option value="2010">2010</option>
+                <option value="2015">2015</option>
+            </select>
+            <p>Date of birth</p>
+            <label for="day">Day</label>
+            <select name="day" id="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+            </select>
+            <label for="month">Month</label>
+            <select name="month" id="month">
+                <option value="jan">January</option>
+                <option value="feb">February</option>
+                <option value="mar">March</option>
+                <option value="apr">April</option>
+                <option value="may">May</option>
+                <option value="jun">June</option>
+                <option value="jul">July</option>
+                <option value="aug">August</option>
+                <option value="sep">September</option>
+                <option value="oct">October</option>
+                <option value="nov">November</option>
+                <option value="dec">December</option>
+            </select>
+            <legend>Year</legend>
+            <label for="year">Year</label>
+            <input type="date" min="1900-01-01" max="2020--12" id="start-date" name="start-date">
+        </fieldset>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+        </form>
+    </body>
+</html>

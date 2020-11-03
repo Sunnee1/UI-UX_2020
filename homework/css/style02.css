@@ -1,0 +1,54 @@
+body {
+    margin: 0%;
+}
+
+.quote {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 80%;
+    font-style: italic;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.i {
+    display: block;
+    width: 600px;
+    background-color: gainsboro;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 90%;
+    font-style: oblique;
+}
+
+.questions {
+    display: block;
+    width: 600px;
+    font-weight: bold;
+}
+
+.answers {
+    display: block;
+    width: 600px;
+}
+
+a:active {
+    background-color: black;
+}
+
+a:hover {
+    color: gold;
+}
+
+a:visited {
+    color: maroon;
+}
+
+.interview-div {
+    margin-left: 10%;
+    padding: 1px 16px;
+    height: 1000px;
+    width: 600px;
+    background-color: lightyellow;
+}
